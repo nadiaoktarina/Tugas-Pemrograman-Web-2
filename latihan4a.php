@@ -1,0 +1,20 @@
+<?php
+
+$warna = ["hijau,"," kuning,"," kelabu,"," merah muda,"];
+echo "Balonku ada lima,";
+echo "</br>";
+echo "Rupa-rupa warna-nya </br>";
+print_r ($warna[0]);
+print_r ($warna[1]);
+print_r ($warna[2]);
+print_r ($warna[3]);
+
+$warna[4] = "biru";
+echo "dan ";
+echo "$warna[4]";
+echo "</br>";
+echo "Meletus balon $warna[0] Dor!!!";
+echo "</br>";
+echo "Hatiku sangat kacau.";
+
+?> 
