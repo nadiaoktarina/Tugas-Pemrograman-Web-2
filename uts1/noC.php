@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-// Membuat associative array dengan data flora dan fauna terancam punah
+// Membuat associative array dengan data barang
 $TableHargaBarang = array(
     array(
         "ID" => 1,
@@ -34,7 +34,7 @@ $TableHargaBarang = array(
         "ID" => 4,
         "Product" => "Shampo Baby",
         "Stok" => 18,
-        "Harga" => 22000,
+        "Harga" => 20000,
         // "Jumlah" => Stok * Harga,
     ),
     array(

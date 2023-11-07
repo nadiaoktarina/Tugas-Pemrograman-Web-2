@@ -21,9 +21,9 @@ foreach ($produk_dibeli as $produk) {
 
 // Diskon
 $diskon = 0;
-if ($total_pembelian >= 100000) {
+if ($total_pembelian >= 200000) {
     $diskon = 0.20;
-} elseif ($total_pembelian >= 50000) {
+} elseif ($total_pembelian >= 150000) {
     $diskon = 0.10;
 }
 
